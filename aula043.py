@@ -13,10 +13,10 @@ while i < len(frase):
         i += 1
         continue
 
-    letra_apareceu = frase.count(letra_atual)
+    qntd_atual = frase.count(letra_atual)
 
-    if qntd_apareceu_mais < letra_apareceu:
-        qntd_apareceu_mais = letra_apareceu
+    if qntd_apareceu_mais < qntd_atual:
+        qntd_apareceu_mais = qntd_atual
         letra_apareceu_mais = letra_atual
 
     i += 1
